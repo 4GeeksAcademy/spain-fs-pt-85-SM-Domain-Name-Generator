@@ -15,7 +15,7 @@ function domainGenerator() {
                 for (let k = 0; k < TLD.length; k++){
                     let domain = pronoun[i] + adj[x] + noun[j] + TLD[k];
                     let domains = "";
-                    if (domain == "oursuprememoney.es") {domains += "oursupreme.money" + "<br>"; domains += "oursuprememoney.es"}
+                    if (domain == "oursuprememoney.es") {domains += "oursupreme.money"}
                     else {domains += domain;}
                     console.log(domains);
                     document.getElementById("domainGenerator").innerHTML += domains + "<br>";
